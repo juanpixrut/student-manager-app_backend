@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.demo.api_estudiantes.model.Estudiante;
 import com.demo.api_estudiantes.service.EstudianteService;
 
-@CrossOrigin(origins = "http://127.0.0.1:5500")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/estudiantes")
 public class EstudianteController {
